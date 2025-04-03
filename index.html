@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>JS Event </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>JS Event Examples</h1>
+
+  <h2>Mouse Event </h2>
+  <button id="mouseBtn">Hover me</button>
+  <p id="mouseMsg"></p>
+
+  <h2>Keyboard Event</h2>
+  <input type="text" id="keyboardInput" placeholder="Type here">
+  <p id="keyboardMsg"></p>
+
+  <h2>Form Event</h2>
+  <form id="demoForm">
+    <input type="text" placeholder="Enter name">
+    <button type="submit">Submit</button>
+  </form>
+  <p id="formMsg"></p>
+
+  <h2>Focus and Blur</h2>
+  <input type="text" id="focusInput" placeholder="Click here">
+  <p id="focusMsg"></p>
+
+  <h2>Event Delegation</h2>
+  <div id="btnContainer">
+    <button data-msg="Button 1 clicked">Button 1</button>
+    <button data-msg="Button 2 clicked">Button 2</button>
+    <button data-msg="Button 3 clicked">Button 3</button>
+  </div>
+  <p id="delegateMsg"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
